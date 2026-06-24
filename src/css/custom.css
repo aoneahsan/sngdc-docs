@@ -1,0 +1,64 @@
+/**
+ * SNGDC — brand palette
+ * Primary: cyan (#06B6D4 — the app theme color, capacitor.config + index.html meta).
+ * Accent:  emerald (clean-energy cue; used for hover/focus rings).
+ */
+
+:root {
+  --ifm-color-primary: #0891b2;
+  --ifm-color-primary-dark: #0883a0;
+  --ifm-color-primary-darker: #077c97;
+  --ifm-color-primary-darkest: #06667c;
+  --ifm-color-primary-light: #099fc4;
+  --ifm-color-primary-lighter: #0aa6cd;
+  --ifm-color-primary-lightest: #18b8df;
+
+  --ifm-color-secondary: #10b981;
+  --ifm-color-success: #10b981;
+  --ifm-color-info: #06b6d4;
+  --ifm-color-warning: #f59e0b;
+  --ifm-color-danger: #ef4444;
+
+  --ifm-code-font-size: 92%;
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  --ifm-heading-font-weight: 700;
+
+  --docusaurus-highlighted-code-line-bg: rgba(6, 182, 212, 0.10);
+
+  --sngdc-surface-brand: rgba(6, 182, 212, 0.06);
+  --sngdc-surface-accent: rgba(16, 185, 129, 0.06);
+}
+
+/* Dark mode — keep the cyan recognisable, raise contrast. */
+[data-theme='dark'] {
+  --ifm-color-primary: #22d3ee;
+  --ifm-color-primary-dark: #0fc8e6;
+  --ifm-color-primary-darker: #0bbcd9;
+  --ifm-color-primary-darkest: #099bb3;
+  --ifm-color-primary-light: #44dbf1;
+  --ifm-color-primary-lighter: #56e0f3;
+  --ifm-color-primary-lightest: #84ebf7;
+
+  --docusaurus-highlighted-code-line-bg: rgba(34, 211, 238, 0.14);
+}
+
+/* Author credit card surfaced at the bottom of long pages. */
+.sngdc-author-card {
+  margin-top: 2.5rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-left: 4px solid var(--ifm-color-primary);
+  border-radius: 8px;
+  background: var(--sngdc-surface-brand);
+  font-size: 0.95rem;
+}
+
+.sngdc-author-card strong {
+  color: var(--ifm-color-primary);
+}
+
+/* Subtle lift on cards/links in the docs body. */
+.markdown a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}

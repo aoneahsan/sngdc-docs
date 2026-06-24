@@ -1,0 +1,11 @@
+/* TEAM */
+Engineer & Maintainer: Ahsan Mahmood
+Site: https://aoneahsan.com
+Contact: aoneahsan@gmail.com
+GitHub: https://github.com/aoneahsan
+
+/* SITE */
+Project: SNGDC Documentation
+App: https://sndgc.aoneahsan.com
+Standards: HTML5, Docusaurus 3, TypeScript
+Components: React, Docusaurus
