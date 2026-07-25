@@ -5,8 +5,8 @@ synthetic natural gas (SNG) distribution company. It documents the customer port
 (accounts, billing, usage analytics, notifications, support) and the RBAC admin and
 content-management studio that powers the public company website.
 
-- **Live app:** https://sndgc.aoneahsan.com
-- **Docs (planned):** https://docs.sndgc.aoneahsan.com
+- **Live app:** https://sngdc.aoneahsan.com
+- **Docs (planned):** https://sngdc-docs.aoneahsan.com
 - **App source (private):** https://github.com/aoneahsan/sngdc
 - **Built by:** [Ahsan Mahmood](https://aoneahsan.com)
 
@@ -30,7 +30,7 @@ yarn typecheck    # tsc --noEmit
 ## Deployment
 
 This site is configured for **dual hosting** — Firebase Hosting and GitHub Pages. Both are
-ready; the owner points DNS at whichever host they prefer for `docs.sndgc.aoneahsan.com`.
+ready; the owner points DNS at whichever host they prefer for `sngdc-docs.aoneahsan.com`.
 See [`DEPLOY.md`](./DEPLOY.md) for the exact steps. Deployment is a manual, owner-only action.
 
 ## Structure

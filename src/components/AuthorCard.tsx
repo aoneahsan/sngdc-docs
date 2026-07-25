@@ -23,8 +23,8 @@ export default function AuthorCard(): React.ReactElement {
         GitHub
       </a>
       . Live app:{' '}
-      <a href="https://sndgc.aoneahsan.com" target="_blank" rel="noopener noreferrer">
-        sndgc.aoneahsan.com
+      <a href="https://sngdc.aoneahsan.com" target="_blank" rel="noopener noreferrer">
+        sngdc.aoneahsan.com
       </a>
       .
     </div>

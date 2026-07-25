@@ -13,8 +13,8 @@ Public Docusaurus documentation site for the **SNGDC** app (private repo `aoneah
 | Package manager | yarn only (NEVER npm/pnpm) |
 | Node | >=18 |
 | Author | Ahsan Mahmood (aoneahsan@gmail.com) |
-| Docs URL (planned) | https://docs.sndgc.aoneahsan.com (Firebase Hosting site `sngdc-docs` + GitHub Pages) |
-| App (live) | https://sndgc.aoneahsan.com |
+| Docs URL (planned) | https://sngdc-docs.aoneahsan.com (Firebase Hosting site `sngdc-docs` + GitHub Pages) |
+| App (live) | https://sngdc.aoneahsan.com |
 | App source | https://github.com/aoneahsan/sngdc (PRIVATE) |
 | Dev port | 5972 (start) / 5973 (serve) |
 | Content tracker | `sngdc/docs/tracking/sngdc-docs-content-tracker.json` (in the app repo) |

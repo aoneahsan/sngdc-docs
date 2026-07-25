@@ -6,6 +6,6 @@ GitHub: https://github.com/aoneahsan
 
 /* SITE */
 Project: SNGDC Documentation
-App: https://sndgc.aoneahsan.com
+App: https://sngdc.aoneahsan.com
 Standards: HTML5, Docusaurus 3, TypeScript
 Components: React, Docusaurus

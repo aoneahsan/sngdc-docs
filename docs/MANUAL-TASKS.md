@@ -10,7 +10,7 @@
 | # | Task | Why only you | Status |
 |---|------|--------------|--------|
 | 1 | **Add DNS.** In Hostinger, add a `CNAME` record `sngdc-docs` → `aoneahsan.github.io` on `aoneahsan.com`. | Only you control the `aoneahsan.com` DNS zone. | ☐ Not started |
-| 2 | **Delete the orphaned old record.** The docs domain was renamed from `docs.sndgc.aoneahsan.com` → `sngdc-docs.aoneahsan.com` (it must derive from the project's deployed domain, not the repo folder name). Remove the stale record. | Same DNS zone. | ☐ Not started |
+| 2 | **Delete the orphaned old record.** The docs domain was renamed from `sngdc-docs.aoneahsan.com` → `sngdc-docs.aoneahsan.com` (it must derive from the project's deployed domain, not the repo folder name). Remove the stale record. | Same DNS zone. | ☐ Not started |
 | 3 | **Configure GitHub Pages.** Repo **Settings → Pages**: source = **GitHub Actions**, custom domain = `sngdc-docs.aoneahsan.com`, then **Enforce HTTPS** once the certificate provisions. | Repo settings are owner-only. | ☐ Not started |
 
 `static/CNAME` already ships `sngdc-docs.aoneahsan.com` inside `build/`, and `.github/workflows/deploy-pages.yml` builds and

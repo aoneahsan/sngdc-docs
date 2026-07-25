@@ -19,7 +19,7 @@ SNGDC is built and maintained by **Ahsan Mahmood**, a software engineer who buil
 
 ## The product
 
-- Live app: [sndgc.aoneahsan.com](https://sndgc.aoneahsan.com)
+- Live app: [sngdc.aoneahsan.com](https://sngdc.aoneahsan.com)
 - Documentation source: [github.com/aoneahsan/sngdc-docs](https://github.com/aoneahsan/sngdc-docs)
 
 ## About this documentation

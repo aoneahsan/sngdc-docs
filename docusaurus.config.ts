@@ -5,11 +5,11 @@ import type * as Preset from '@docusaurus/preset-classic';
 // ---------------------------------------------------------------------------
 // SNGDC — Documentation site config
 // Author: Ahsan Mahmood (https://aoneahsan.com)
-// App: https://sndgc.aoneahsan.com  ·  App repo: https://github.com/aoneahsan/sngdc
+// App: https://sngdc.aoneahsan.com  ·  App repo: https://github.com/aoneahsan/sngdc
 // ---------------------------------------------------------------------------
 
 const DOCS_URL = 'https://sngdc-docs.aoneahsan.com';
-const APP_URL = 'https://sndgc.aoneahsan.com';
+const APP_URL = 'https://sngdc.aoneahsan.com';
 
 const config: Config = {
   title: 'SNGDC Docs',

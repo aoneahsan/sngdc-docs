@@ -22,5 +22,5 @@
   <text x="280" y="248" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="84" font-weight="800" fill="#ffffff">SNGDC Docs</text>
   <text x="282" y="320" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="36" font-weight="500" fill="#e0f7fb">Synthetic Natural Gas Distribution Company</text>
   <text x="96" y="470" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="34" font-weight="500" fill="#ffffff">Customer portal · Billing · Usage analytics · Support · RBAC operations CMS</text>
-  <text x="96" y="544" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="28" font-weight="400" fill="#cdeff6">React 19 · Capacitor 8 · Firebase  ·  docs.sndgc.aoneahsan.com</text>
+  <text x="96" y="544" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="28" font-weight="400" fill="#cdeff6">React 19 · Capacitor 8 · Firebase  ·  sngdc-docs.aoneahsan.com</text>
 </svg>

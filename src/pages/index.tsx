@@ -57,7 +57,7 @@ function HomepageHeader(): ReactNode {
           </Link>
           <Link
             className="button button--outline button--lg"
-            href="https://sndgc.aoneahsan.com"
+            href="https://sngdc.aoneahsan.com"
           >
             Open the live app
           </Link>

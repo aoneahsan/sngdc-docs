@@ -10,38 +10,38 @@
 Honest scope: this documentation describes how the SNGDC application works for
 customers and operators. It is not a synthetic-natural-gas engineering manual, and it
 does not cover the physical gas distribution network. The app does not process in-app
-payments. Live app: https://sndgc.aoneahsan.com
+payments. Live app: https://sngdc.aoneahsan.com
 
 ## Documentation
 
-- [Introduction](https://docs.sndgc.aoneahsan.com/intro): What SNGDC is and what the app does.
-- [Account & Sign-in](https://docs.sndgc.aoneahsan.com/getting-started/account-and-sign-in): Registration, Google sign-in, and roles.
-- [Customer Dashboard](https://docs.sndgc.aoneahsan.com/getting-started/customer-dashboard): The signed-in customer home.
+- [Introduction](https://sngdc-docs.aoneahsan.com/intro): What SNGDC is and what the app does.
+- [Account & Sign-in](https://sngdc-docs.aoneahsan.com/getting-started/account-and-sign-in): Registration, Google sign-in, and roles.
+- [Customer Dashboard](https://sngdc-docs.aoneahsan.com/getting-started/customer-dashboard): The signed-in customer home.
 
 ## Customer features
 
-- [Billing](https://docs.sndgc.aoneahsan.com/features/billing): Viewing bills and statements.
-- [Usage Analytics](https://docs.sndgc.aoneahsan.com/features/usage-analytics): D3-powered consumption charts.
-- [Notifications](https://docs.sndgc.aoneahsan.com/features/notifications): In-app and push notifications.
-- [Support](https://docs.sndgc.aoneahsan.com/features/support): Raising and tracking support tickets.
-- [Profile & Account](https://docs.sndgc.aoneahsan.com/features/profile-and-account): Profile editing and account deletion.
+- [Billing](https://sngdc-docs.aoneahsan.com/features/billing): Viewing bills and statements.
+- [Usage Analytics](https://sngdc-docs.aoneahsan.com/features/usage-analytics): D3-powered consumption charts.
+- [Notifications](https://sngdc-docs.aoneahsan.com/features/notifications): In-app and push notifications.
+- [Support](https://sngdc-docs.aoneahsan.com/features/support): Raising and tracking support tickets.
+- [Profile & Account](https://sngdc-docs.aoneahsan.com/features/profile-and-account): Profile editing and account deletion.
 
 ## Admin & operations
 
-- [Admin Overview](https://docs.sndgc.aoneahsan.com/admin/overview): The operations back office.
-- [RBAC & Users](https://docs.sndgc.aoneahsan.com/admin/rbac-and-users): Roles, permissions, and user management.
-- [Societies & Customers](https://docs.sndgc.aoneahsan.com/admin/societies-and-customers): Managing societies and customer records.
-- [Content Studio](https://docs.sndgc.aoneahsan.com/admin/content-studio): Editing the public website content.
-- [Billing, Advertising & Analytics](https://docs.sndgc.aoneahsan.com/admin/billing-advertising-analytics): Operational dashboards.
+- [Admin Overview](https://sngdc-docs.aoneahsan.com/admin/overview): The operations back office.
+- [RBAC & Users](https://sngdc-docs.aoneahsan.com/admin/rbac-and-users): Roles, permissions, and user management.
+- [Societies & Customers](https://sngdc-docs.aoneahsan.com/admin/societies-and-customers): Managing societies and customer records.
+- [Content Studio](https://sngdc-docs.aoneahsan.com/admin/content-studio): Editing the public website content.
+- [Billing, Advertising & Analytics](https://sngdc-docs.aoneahsan.com/admin/billing-advertising-analytics): Operational dashboards.
 
 ## Platform
 
-- [Tech Stack](https://docs.sndgc.aoneahsan.com/platform/tech-stack): The architecture and libraries used.
-- [Mobile & Capacitor](https://docs.sndgc.aoneahsan.com/platform/mobile-and-capacitor): Native Android/iOS behavior.
-- [Theme Customizer](https://docs.sndgc.aoneahsan.com/platform/theme-customizer): User-facing appearance settings.
-- [Privacy & Data](https://docs.sndgc.aoneahsan.com/platform/privacy-and-data): What data is stored and how.
+- [Tech Stack](https://sngdc-docs.aoneahsan.com/platform/tech-stack): The architecture and libraries used.
+- [Mobile & Capacitor](https://sngdc-docs.aoneahsan.com/platform/mobile-and-capacitor): Native Android/iOS behavior.
+- [Theme Customizer](https://sngdc-docs.aoneahsan.com/platform/theme-customizer): User-facing appearance settings.
+- [Privacy & Data](https://sngdc-docs.aoneahsan.com/platform/privacy-and-data): What data is stored and how.
 
 ## Optional
 
-- [Live App](https://sndgc.aoneahsan.com): The SNGDC web application.
-- [Author](https://docs.sndgc.aoneahsan.com/about-the-author): Ahsan Mahmood, engineer and maintainer.
+- [Live App](https://sngdc.aoneahsan.com): The SNGDC web application.
+- [Author](https://sngdc-docs.aoneahsan.com/about-the-author): Ahsan Mahmood, engineer and maintainer.

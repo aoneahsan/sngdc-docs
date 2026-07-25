@@ -7,7 +7,7 @@ sidebar_position: 4
 
 # Privacy & Data
 
-This page describes how SNGDC handles data, in plain terms. The authoritative legal text lives on the app's [privacy policy](https://sndgc.aoneahsan.com/privacy) and [terms](https://sndgc.aoneahsan.com/terms) pages; this is the engineering summary.
+This page describes how SNGDC handles data, in plain terms. The authoritative legal text lives on the app's [privacy policy](https://sngdc.aoneahsan.com/privacy) and [terms](https://sngdc.aoneahsan.com/terms) pages; this is the engineering summary.
 
 ## What is collected and where it lives
 

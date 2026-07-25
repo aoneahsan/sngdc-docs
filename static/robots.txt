@@ -1,7 +1,7 @@
 # SNGDC Docs — robots.txt
-# https://docs.sndgc.aoneahsan.com
+# https://sngdc-docs.aoneahsan.com
 
-Sitemap: https://docs.sndgc.aoneahsan.com/sitemap.xml
+Sitemap: https://sngdc-docs.aoneahsan.com/sitemap.xml
 
 # Default — allow all
 User-agent: *
