@@ -6,7 +6,7 @@ synthetic natural gas (SNG) distribution company. It documents the customer port
 content-management studio that powers the public company website.
 
 - **Live app:** https://sngdc.aoneahsan.com
-- **Docs (planned):** https://sngdc-docs.aoneahsan.com
+- **Docs (live):** https://sngdc-docs.aoneahsan.com
 - **App source (private):** https://github.com/aoneahsan/sngdc
 - **Built by:** [Ahsan Mahmood](https://aoneahsan.com)
 
@@ -24,14 +24,9 @@ yarn serve        # preview the built site on :5973
 yarn typecheck    # tsc --noEmit
 ```
 
-> Per the project conventions, an agent never runs the dev server — it verifies with
-> `yarn build` and `yarn typecheck`. The owner runs and previews.
-
 ## Deployment
 
-This site is configured for **dual hosting** — Firebase Hosting and GitHub Pages. Both are
-ready; the owner points DNS at whichever host they prefer for `sngdc-docs.aoneahsan.com`.
-See [`DEPLOY.md`](./DEPLOY.md) for the exact steps. Deployment is a manual, owner-only action.
+GitHub Pages deploys on each `main` push through `.github/workflows/deploy-pages.yml`. The custom domain and HTTPS enforcement are active. Build, typecheck and inspect the local site before pushing. See [DEPLOY.md](DEPLOY.md) for verification and recovery.
 
 ## Structure
 
@@ -43,8 +38,7 @@ src/css/custom.css     Brand palette (cyan #06B6D4)
 static/                robots.txt, llms.txt, CNAME, humans.txt, img/ (logo, favicon, social card)
 docusaurus.config.ts   Site config + SEO/JSON-LD head tags
 sidebars.ts            Sidebar layout
-firebase.json          Firebase Hosting config
-.github/workflows/     GitHub Pages deploy (manual trigger)
+.github/workflows/     GitHub Pages deploy on main push
 ```
 
 ## License

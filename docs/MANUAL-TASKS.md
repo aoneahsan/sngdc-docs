@@ -1,23 +1,5 @@
-# Manual / User-Only Tasks — Sngdc Docs
+# SNGDC docs manual tasks
 
-> The ONE place for everything only you (the human) can do. Fixed path: `docs/MANUAL-TASKS.md`.
-> Global spec: `~/.claude/rules/manual-tasks.md`. Excluded from the published site (see
-> `docusaurus.config.ts` → `docs.exclude`) because this repo is public.
-> Last updated: 2026-07-25
+**Reviewed:** 2026-10-14. GitHub Pages uses `sngdc-docs.aoneahsan.com` with HTTPS enforcement enabled. The homepage, sitemap, robots and llms files returned HTTPS 200. No DNS or Pages setup task remains open from the earlier list.
 
-## ⏳ Pending manual tasks
-
-| # | Task | Why only you | Status |
-|---|------|--------------|--------|
-| 1 | **Add DNS.** In Hostinger, add a `CNAME` record `sngdc-docs` → `aoneahsan.github.io` on `aoneahsan.com`. | Only you control the `aoneahsan.com` DNS zone. | ☐ Not started |
-| 2 | **Delete the orphaned old record.** The docs domain was renamed from `sngdc-docs.aoneahsan.com` → `sngdc-docs.aoneahsan.com` (it must derive from the project's deployed domain, not the repo folder name). Remove the stale record. | Same DNS zone. | ☐ Not started |
-| 3 | **Configure GitHub Pages.** Repo **Settings → Pages**: source = **GitHub Actions**, custom domain = `sngdc-docs.aoneahsan.com`, then **Enforce HTTPS** once the certificate provisions. | Repo settings are owner-only. | ☐ Not started |
-
-`static/CNAME` already ships `sngdc-docs.aoneahsan.com` inside `build/`, and `.github/workflows/deploy-pages.yml` builds and
-publishes on every push to `main` — these steps are all that remain.
-
-## ✅ Completed manual tasks
-
-| # | Task | Resolution | Date |
-|---|------|-----------|------|
-| — | — | — | — |
+If deployment fails after a later `main` push, inspect the `Deploy to GitHub Pages` workflow and repository Pages settings. Keep secrets out of this public repository.
