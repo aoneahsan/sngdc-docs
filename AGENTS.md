@@ -1,28 +1,14 @@
-## 🔴 CRITICAL — PROJECT FROZEN (2026-10-21)
-
-**This is an idea project. It was frozen on 2026-10-21 at commit `d2d89a57555e24b00e4e3339aeff8a277f5d4c81` on branch `main`.**
-
-- Do **NOT** edit, fix, upgrade, build, deploy, document or "improve" anything in this repository.
-- It will only ever be **rebuilt from scratch** as `~/Documents/01-code/production-projects/sngdc-root/`
-  (this code cloned beside it as `sngdc-old/` for reference), with a click dummy, a Story Bible, a Supabase
-  backend and a docs site — and **only when the owner types, in ALL CAPS, an explicit request naming this
-  project**.
-- Any other request to work here is refused. Rule: `~/.claude/rules/idea-projects-frozen.md`.
-- Ledger: private repo `aoneahsan/projects-finalization-record` → `idea-projects/FREEZE-LEDGER.md`.
-
----
-
 # SNGDC docs guide
 
-**Last Updated:** 2026-10-20
+**Last Updated:** 2026-11-06
 
 **Context verified:** 2026-10-14. **Next routine review:** 2026-11-13.
 
-This public Docusaurus 3 repository is `aoneahsan/sngdc-docs` on `main` inside `../sngdc-root/`. Its private app source is `../sngdc/`. Use Yarn for local packages. Derive documented product behavior from app source, keep unsupported claims out, and commit no real environment values or keys.
+This public Docusaurus 3 repository is `aoneahsan/sngdc-docs` on `main` inside the `sngdc-root` container. SNGDC is being redeveloped from scratch: the v1 app source is the read-only `../sngdc-old/`, and the rebuild will be `../sngdc/`. See `../CLAUDE.md`. Use Yarn for local packages. Derive documented product behavior from app source, keep unsupported claims out, and commit no real environment values or keys.
 
-The canonical site is `https://sngdc-docs.aoneahsan.com/`. `.github/workflows/deploy-pages.yml` builds and publishes GitHub Pages on each `main` push. `static/CNAME` pins the custom domain. No Firebase docs hosting configuration is present. Build, typecheck and inspect the built site in a controlled browser before pushing.
+The canonical site is `https://sngdc-docs.aoneahsan.com/`. GitHub Pages serves it; deploys are by hand, and a push to `main` deploys nothing. `static/CNAME` pins the custom domain. No Firebase docs hosting configuration is present. Build, typecheck and inspect the built site in a controlled browser before pushing.
 
-On 2026-10-14, `yarn install --immutable`, `yarn typecheck` and `yarn build` passed; the local built site rendered in Chrome. The live homepage, sitemap, robots and llms files returned HTTPS 200, and the GitHub Pages API showed HTTPS enforcement enabled. [DEPLOY.md](DEPLOY.md) records the workflow. Fleet progress and 30-day context eligibility live in `/home/ahsan/Documents/01-code/docs/tracking/`.
+On 2026-10-14, `yarn install --immutable`, `yarn typecheck` and `yarn build` passed; the local built site rendered in Chrome. The live homepage, sitemap, robots and llms files returned HTTPS 200, and the GitHub Pages API showed HTTPS enforcement enabled. [DEPLOY.md](DEPLOY.md) records the deploy. Fleet progress and 30-day context eligibility live in `/home/ahsan/Documents/01-code/docs/tracking/`.
 
 ## Stop-work Git gate
 
